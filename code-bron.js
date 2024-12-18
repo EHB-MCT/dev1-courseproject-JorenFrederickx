@@ -1,6 +1,6 @@
-// https://chatgpt.com
-// 12/12/2024
-// Om ervoor te zorgen dat de cirkels de andere kant uitgingen bij het botsen, heb ik ChatGPT gebruikt
+//  https://chatgpt.com
+//  12/12/2024
+//  Om ervoor te zorgen dat de cirkels de andere kant uitgingen bij het botsen, heb ik ChatGPT gebruikt
 
     elements.forEach((element) => {
         element.x += element.dx;
@@ -11,8 +11,8 @@
 
 
 
-// https://chatgpt.com
-// 12/12/2024
-// Met deze formule wordt de afstand tot de muis berekend voor elke cirkel
+//  https://chatgpt.com
+//  18/12/2024
+//  Met deze formule wordt de afstand tot de muis berekend voor elke cirkel
 
         const distance = Math.hypot(element.x - mouseX, element.y - mouseY);

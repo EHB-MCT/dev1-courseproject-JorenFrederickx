@@ -20,7 +20,19 @@ for (let i = 0; i < elementCount; i++) {
     });
 }
 
+canvas.addEventListener("mousemove", (event) => {
+    const mouseX = event.clientX;
+    const mouseY = event.clientY;
 
+    elements.forEach((element) => {
+        const distance = Math.hypot(element.x - mouseX, element.y - mouseY);
+        if (distance < 100) {
+            element.radius = Math.min(30, element.radius + 1);
+        } else {
+            element.radius = Math.max(5, element.radius - 0.5);
+        }
+    });
+});
 
 animate();
 
