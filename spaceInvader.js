@@ -1,7 +1,12 @@
 "use strict";
-signature();
 
-function signature(){
+export function signature() {
+    return "Gemaakt door: Joren Frederickx";
+}
+
+drawSpaceInvader();
+
+export function drawSpaceInvader() {
     let canvas = document.querySelector("canvas");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
