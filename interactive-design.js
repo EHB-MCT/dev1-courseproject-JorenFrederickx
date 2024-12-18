@@ -60,3 +60,5 @@ function draw() {
         context.stroke();
     });
 }
+
+// Ik heb geprobeerd de signature (Spaceinvader) rechtsonderaan te zetten maar altijd als ik het probeer krijg ik een error in mijn browser.
