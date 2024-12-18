@@ -17,6 +17,7 @@ for (let i = 0; i < elementCount; i++) {
         radius: Utils.randomNumber(5, 15),
         dx: Utils.randomNumber(-2, 2),
         dy: Utils.randomNumber(-2, 2),
+        color: `rgb(${Utils.randomNumber(100, 255)}, ${Utils.randomNumber(100, 255)}, ${Utils.randomNumber(100, 255)})`
     });
 }
 
